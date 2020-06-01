@@ -34,6 +34,7 @@ except exceptions.ConnectionError as err:
 if client == None:
     sys.exit()
 
+#s = Search(using=client, index='incidents')
 s = Search(using=client, index='incidents').query("match", category="Leak")
 response = s.execute()
 
