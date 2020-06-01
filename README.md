@@ -20,4 +20,4 @@ s = Search(using=client, index='process-summaries-completed-idx-ibm-bai-2020.01.
     .query("match", type="process")
 ```
 
-![Example Output]()
+![Example Output](https://github.com/gerry-baird/python-utils/blob/master/img/elastic_to_csv_example.jpg)
